@@ -1,6 +1,6 @@
 # Electronic Gadget Review
 
-> **[Live Demo](YOUR_VERCEL_URL_HERE)**  
+> **[Live Demo](https://electronic-gadget-review.vercel.app)**  
 > *Smart Consumer Electronics Evaluation, Aspect-Based Sentiment Analysis & Consensus Intelligence*
 
 [![React](https://img.shields.io/badge/React-19.2-61dafb.svg)](https://react.dev/)
