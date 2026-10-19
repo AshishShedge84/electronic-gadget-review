@@ -19,7 +19,7 @@ import {
   extractVariantSignature,
   areExactHardwareVariants,
   deduplicateAndConsolidateProducts
-} from "../../api/connectors/productDeduplicator.js";
+} from "../../api/_connectors/productDeduplicator.js";
 
 let passed = 0;
 let failed = 0;

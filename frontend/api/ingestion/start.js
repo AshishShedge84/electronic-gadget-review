@@ -4,8 +4,8 @@
  * Follows strict compliance: reports exact provider-by-provider status transparently.
  */
 
-import { verifiedFeedConnector } from "../connectors/verifiedFeed.js";
-import { getProviderById } from "../connectors/registry.js";
+import { verifiedFeedConnector } from "../_connectors/verifiedFeed.js";
+import { getProviderById } from "../_connectors/registry.js";
 import { INITIAL_PRODUCTS } from "../../frontend/src/services/seedData.js";
 
 export default async function handler(req, res) {

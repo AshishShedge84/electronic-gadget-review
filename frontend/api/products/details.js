@@ -5,7 +5,7 @@
  */
 
 import { INITIAL_PRODUCTS } from "../../frontend/src/services/seedData.js";
-import { getRegisteredProviders } from "../connectors/registry.js";
+import { getRegisteredProviders } from "../_connectors/registry.js";
 
 export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Credentials", "true");

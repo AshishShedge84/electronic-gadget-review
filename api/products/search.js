@@ -4,12 +4,12 @@
  * Normalizes, deduplicates, and annotates results with real capabilities.
  */
 
-import { verifiedFeedConnector } from "../connectors/verifiedFeed.js";
-import { amazonConnector } from "../connectors/amazon.js";
-import { flipkartConnector } from "../connectors/flipkart.js";
-import { meeshoConnector } from "../connectors/meesho.js";
-import { deduplicateAndConsolidateProducts } from "../connectors/productDeduplicator.js";
-import { getRegisteredProviders } from "../connectors/registry.js";
+import { verifiedFeedConnector } from "../_connectors/verifiedFeed.js";
+import { amazonConnector } from "../_connectors/amazon.js";
+import { flipkartConnector } from "../_connectors/flipkart.js";
+import { meeshoConnector } from "../_connectors/meesho.js";
+import { deduplicateAndConsolidateProducts } from "../_connectors/productDeduplicator.js";
+import { getRegisteredProviders } from "../_connectors/registry.js";
 
 export default async function handler(req, res) {
   // CORS setup
