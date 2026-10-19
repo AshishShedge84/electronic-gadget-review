@@ -53,17 +53,31 @@ export default function DashboardPage({ setCurrentTab, setSelectedProductId }) {
       {/* Header Greeting */}
       <div style={{ marginBottom: "32px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "16px" }}>
-          <div>
-            <div style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "12px", fontWeight: "600", color: "#0071E3", marginBottom: "4px" }}>
-              <span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "#34C759" }}></span>
-              <span>Cluster Engine Online • Latency 18ms</span>
+          <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+            <img
+              src="/branding/electronic-gadget-review-icon.png"
+              alt="Electronic Gadget Review"
+              style={{
+                width: "56px",
+                height: "56px",
+                minWidth: "56px",
+                borderRadius: "14px",
+                objectFit: "contain",
+                boxShadow: "0 4px 12px rgba(0, 113, 227, 0.2)"
+              }}
+            />
+            <div>
+              <div style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "12px", fontWeight: "600", color: "#0071E3", marginBottom: "4px" }}>
+                <span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "#34C759" }}></span>
+                <span>Cluster Engine Online • Latency 18ms</span>
+              </div>
+              <h1 style={{ fontSize: "32px", fontWeight: "700", color: "#1D1D1F", letterSpacing: "-0.02em" }}>
+                Good evening, {user?.displayName || "Tech Explorer"}
+              </h1>
+              <p style={{ fontSize: "14px", color: "#86868B", marginTop: "4px" }}>
+                Real-time sentiment synthesis across {formatNumberIN(totalReviews)} verified electronic reviews in India.
+              </p>
             </div>
-            <h1 style={{ fontSize: "32px", fontWeight: "700", color: "#1D1D1F", letterSpacing: "-0.02em" }}>
-              Good evening, {user?.displayName || "Tech Explorer"}
-            </h1>
-            <p style={{ fontSize: "14px", color: "#86868B", marginTop: "4px" }}>
-              Real-time sentiment synthesis across {formatNumberIN(totalReviews)} verified electronic reviews in India.
-            </p>
           </div>
 
           <div style={{ display: "flex", gap: "10px" }}>
