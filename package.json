@@ -1,0 +1,11 @@
+{
+  "name": "electronic-gadget-review",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Electronic Gadget Review — Smart Consumer Electronics Evaluation & Consensus Intelligence",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "test": "cd frontend && npm test",
+    "dev": "cd frontend && npm run dev"
+  }
+}
