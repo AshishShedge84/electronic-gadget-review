@@ -1,0 +1,1724 @@
+{
+  "auditPhase": "after",
+  "timestamp": "2026-10-19T17:48:58.492Z",
+  "protectedRoutes": [
+    {
+      "id": "dashboard",
+      "path": "/dashboard",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "summary",
+      "path": "/analysis",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "sentiment",
+      "path": "/sentiment",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "aspects",
+      "path": "/aspects",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "compare",
+      "path": "/compare",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "saved",
+      "path": "/saved",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "history",
+      "path": "/history",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "profile",
+      "path": "/profile",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "settings",
+      "path": "/settings",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "nlp",
+      "path": "/nlp",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "reports",
+      "path": "/reports",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    }
+  ],
+  "results": {
+    "landing_1366x768": {
+      "routeId": "landing",
+      "path": "/",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "landing_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "explore_1366x768": {
+      "routeId": "explore",
+      "path": "/explore",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "explore_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "productDetail_1366x768": {
+      "routeId": "productDetail",
+      "path": "/product?product=sony-wh1000xm5",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "productDetail_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "login_1366x768": {
+      "routeId": "login",
+      "path": "/login",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "login_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "register_1366x768": {
+      "routeId": "register",
+      "path": "/register",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "register_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "forgotPassword_1366x768": {
+      "routeId": "forgotPassword",
+      "path": "/forgot-password",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "forgotPassword_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "about_1366x768": {
+      "routeId": "about",
+      "path": "/about",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "about_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "contact_1366x768": {
+      "routeId": "contact",
+      "path": "/contact",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "contact_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "help_1366x768": {
+      "routeId": "help",
+      "path": "/help",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "help_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "privacy_1366x768": {
+      "routeId": "privacy",
+      "path": "/privacy",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "privacy_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "terms_1366x768": {
+      "routeId": "terms",
+      "path": "/terms",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "terms_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "landing_1440x900": {
+      "routeId": "landing",
+      "path": "/",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "landing_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0.003,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0.003,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "explore_1440x900": {
+      "routeId": "explore",
+      "path": "/explore",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "explore_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "productDetail_1440x900": {
+      "routeId": "productDetail",
+      "path": "/product?product=sony-wh1000xm5",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "productDetail_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "login_1440x900": {
+      "routeId": "login",
+      "path": "/login",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "login_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "register_1440x900": {
+      "routeId": "register",
+      "path": "/register",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "register_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "forgotPassword_1440x900": {
+      "routeId": "forgotPassword",
+      "path": "/forgot-password",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "forgotPassword_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "about_1440x900": {
+      "routeId": "about",
+      "path": "/about",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "about_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "contact_1440x900": {
+      "routeId": "contact",
+      "path": "/contact",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "contact_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "help_1440x900": {
+      "routeId": "help",
+      "path": "/help",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "help_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0.005,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0.005,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "privacy_1440x900": {
+      "routeId": "privacy",
+      "path": "/privacy",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "privacy_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "terms_1440x900": {
+      "routeId": "terms",
+      "path": "/terms",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "terms_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "landing_1920x1080": {
+      "routeId": "landing",
+      "path": "/",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "landing_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0.002,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0.002,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "explore_1920x1080": {
+      "routeId": "explore",
+      "path": "/explore",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "explore_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "productDetail_1920x1080": {
+      "routeId": "productDetail",
+      "path": "/product?product=sony-wh1000xm5",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "productDetail_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "login_1920x1080": {
+      "routeId": "login",
+      "path": "/login",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "login_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "register_1920x1080": {
+      "routeId": "register",
+      "path": "/register",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "register_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "forgotPassword_1920x1080": {
+      "routeId": "forgotPassword",
+      "path": "/forgot-password",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "forgotPassword_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "about_1920x1080": {
+      "routeId": "about",
+      "path": "/about",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "about_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "contact_1920x1080": {
+      "routeId": "contact",
+      "path": "/contact",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "contact_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "help_1920x1080": {
+      "routeId": "help",
+      "path": "/help",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "help_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "privacy_1920x1080": {
+      "routeId": "privacy",
+      "path": "/privacy",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "privacy_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "terms_1920x1080": {
+      "routeId": "terms",
+      "path": "/terms",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "terms_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "landing_768x1024": {
+      "routeId": "landing",
+      "path": "/",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "landing_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "explore_768x1024": {
+      "routeId": "explore",
+      "path": "/explore",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "explore_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "productDetail_768x1024": {
+      "routeId": "productDetail",
+      "path": "/product?product=sony-wh1000xm5",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "productDetail_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "login_768x1024": {
+      "routeId": "login",
+      "path": "/login",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "login_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "register_768x1024": {
+      "routeId": "register",
+      "path": "/register",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "register_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "forgotPassword_768x1024": {
+      "routeId": "forgotPassword",
+      "path": "/forgot-password",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "forgotPassword_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "about_768x1024": {
+      "routeId": "about",
+      "path": "/about",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "about_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "contact_768x1024": {
+      "routeId": "contact",
+      "path": "/contact",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "contact_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "help_768x1024": {
+      "routeId": "help",
+      "path": "/help",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "help_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "privacy_768x1024": {
+      "routeId": "privacy",
+      "path": "/privacy",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "privacy_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "terms_768x1024": {
+      "routeId": "terms",
+      "path": "/terms",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "terms_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "landing_390x844": {
+      "routeId": "landing",
+      "path": "/",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "landing_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "explore_390x844": {
+      "routeId": "explore",
+      "path": "/explore",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "explore_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "productDetail_390x844": {
+      "routeId": "productDetail",
+      "path": "/product?product=sony-wh1000xm5",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "productDetail_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "login_390x844": {
+      "routeId": "login",
+      "path": "/login",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "login_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "register_390x844": {
+      "routeId": "register",
+      "path": "/register",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "register_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "forgotPassword_390x844": {
+      "routeId": "forgotPassword",
+      "path": "/forgot-password",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "forgotPassword_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "about_390x844": {
+      "routeId": "about",
+      "path": "/about",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "about_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "contact_390x844": {
+      "routeId": "contact",
+      "path": "/contact",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "contact_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "help_390x844": {
+      "routeId": "help",
+      "path": "/help",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "help_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "privacy_390x844": {
+      "routeId": "privacy",
+      "path": "/privacy",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "privacy_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "terms_390x844": {
+      "routeId": "terms",
+      "path": "/terms",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "terms_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    }
+  }
+}

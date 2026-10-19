@@ -1,0 +1,79 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Core Authorization Helpers
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && 
+        (request.auth.token.role == 'ADMIN' || request.auth.token.admin == true);
+    }
+
+    // 1. User Profiles & Private Data: users/{userId}
+    // Users can only access their own private profile; no cross-user reading
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isOwner(userId);
+      // Users cannot elevate their own role or tamper with uid/email
+      allow update: if isOwner(userId) && 
+        (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['role', 'uid', 'email']));
+      allow delete: if isAdmin();
+      
+      // User Private Subcollections: history, saved, notifications
+      match /history/{historyId} {
+        allow read, write: if isOwner(userId);
+      }
+      match /saved/{savedId} {
+        allow read, write: if isOwner(userId);
+      }
+      match /notifications/{notifId} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+
+    // 2. Product Catalog: products/{productId}
+    match /products/{productId} {
+      // Catalog items are publicly readable
+      allow read: if true;
+      // Creation and editing strictly restricted to administrators
+      allow create, update, delete: if isAdmin();
+
+      // Product Reviews: products/{productId}/reviews/{reviewId}
+      match /reviews/{reviewId} {
+        allow read: if true;
+        allow create: if isAuthenticated() && 
+          request.resource.data.rating is number &&
+          request.resource.data.rating >= 1 &&
+          request.resource.data.rating <= 5;
+        allow update, delete: if isAdmin() || (isAuthenticated() && resource.data.authorId == request.auth.uid);
+      }
+    }
+
+    // 3. Product Analyses: productAnalyses/{productId}
+    match /productAnalyses/{productId} {
+      allow read: if true;
+      allow write: if isAuthenticated();
+    }
+
+    // 4. Saved Products Collection: savedProducts/{docKey}
+    match /savedProducts/{docKey} {
+      allow read: if isAuthenticated() && (resource == null || resource.data.userId == request.auth.uid);
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+
+    // 5. Analysis Runs Collection: analysisRuns/{runId}
+    match /analysisRuns/{runId} {
+      allow read: if isAuthenticated() && (resource == null || resource.data.userId == request.auth.uid);
+      allow create: if isAuthenticated() && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+  }
+}

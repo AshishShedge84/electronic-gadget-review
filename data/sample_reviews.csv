@@ -1,0 +1,11 @@
+review_id,product_name,category,review_text,rating,review_date,reviewer_name,source
+101,Apex Pro 15 Ultra,Smartphones,"The battery backup easily crosses 36 hours and the camera zoom capture is insanely detailed.",5,2026-10-02,Naveen Kumar,TechForum
+102,Apex Pro 15 Ultra,Smartphones,"Screen display is vivid and ultra responsive, but the phone gets quite hot when playing Genshin Impact.",3,2026-10-03,Liam O'Connor,Retail Review
+103,ZenithBook Pro 16 M3,Laptops,"Silent fans under normal web development workload and battery stays strong throughout whole day.",5,2026-10-03,Siddharth Verma,Verified Store
+104,ZenithBook Pro 16 M3,Laptops,"The power brick is huge and heavy. Build quality is nice but price feels exaggerated.",2,2026-10-04,Elena Rostova,TechHub
+105,AuraPod ANC 3,Earbuds,"Super light in the ear with deep bass. The noise cancellation creates instant peace in coffee shops.",5,2026-10-04,Aarav Patel,Online Buyer
+106,AuraPod ANC 3,Earbuds,"Mic quality is disappointing when speaking on phone calls in traffic noise. ANC works decently.",3,2026-10-05,Clara Oswald,Verified Buyer
+107,Vanguard Chrono Active 2,Smartwatches,"GPS locked on instantly during my 10k marathon. Heart rate sensor tracked accurately compared to chest strap.",5,2026-10-04,Rohan Nair,Athletic Review
+108,Vanguard Chrono Active 2,Smartwatches,"Sleep tracking registered fake awake periods. Watch build and screen are sturdy nonetheless.",3,2026-10-05,Chloe Simpson,Online Shopper
+109,SlateTab Ultra OLED,Tablets,"The OLED colors pop so nicely when editing raw photography. Four speakers sound remarkably spacious.",5,2026-10-04,Deepak Iyer,Creator Lab
+110,SlateTab Ultra OLED,Tablets,"Stylus has great ergonomics but battery charging speed on the tablet is sluggish.",3,2026-10-05,Zoe Kravitz,Verified Purchase

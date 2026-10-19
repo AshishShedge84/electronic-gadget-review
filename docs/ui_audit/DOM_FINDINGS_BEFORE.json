@@ -1,0 +1,4087 @@
+{
+  "auditPhase": "before",
+  "timestamp": "2026-10-19T17:13:56.503Z",
+  "protectedRoutes": [
+    {
+      "id": "dashboard",
+      "path": "/dashboard",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "summary",
+      "path": "/analysis",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "sentiment",
+      "path": "/sentiment",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "aspects",
+      "path": "/aspects",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "compare",
+      "path": "/compare",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "saved",
+      "path": "/saved",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "history",
+      "path": "/history",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "profile",
+      "path": "/profile",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "settings",
+      "path": "/settings",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "nlp",
+      "path": "/nlp",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    },
+    {
+      "id": "reports",
+      "path": "/reports",
+      "status": "not verified",
+      "reason": "No test account or auth emulator configured"
+    }
+  ],
+  "results": {
+    "landing_1366x768": {
+      "routeId": "landing",
+      "path": "/",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "landing_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [
+        {
+          "selector": "p",
+          "text": "Industry-leading noise canceling wi",
+          "scrollWidth": 280,
+          "clientWidth": 280,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        },
+        {
+          "selector": "p",
+          "text": "Spatial audio with Bose Immersive A",
+          "scrollWidth": 280,
+          "clientWidth": 280,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        },
+        {
+          "selector": "p",
+          "text": "Liquid Retina XDR display with ProM",
+          "scrollWidth": 280,
+          "clientWidth": 280,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        }
+      ],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "nav",
+          "topDelta": 4,
+          "heightDelta": 7,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 18,
+          "childCount": 6
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 18,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0.003,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0.003,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 3,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 7,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 10
+    },
+    "explore_1366x768": {
+      "routeId": "explore",
+      "path": "/explore",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "explore_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 4,
+          "heightDelta": 26,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 6
+    },
+    "productDetail_1366x768": {
+      "routeId": "productDetail",
+      "path": "/product?product=sony-wh1000xm5",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "productDetail_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 36,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 18,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 4,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 7,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 7
+    },
+    "login_1366x768": {
+      "routeId": "login",
+      "path": "/login",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "login_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "header",
+          "topDelta": 5,
+          "heightDelta": 9,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 6,
+          "heightDelta": 11,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 15,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 6
+    },
+    "register_1366x768": {
+      "routeId": "register",
+      "path": "/register",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "register_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 7,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 1,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "forgotPassword_1366x768": {
+      "routeId": "forgotPassword",
+      "path": "/forgot-password",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "forgotPassword_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 14,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 1,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "about_1366x768": {
+      "routeId": "about",
+      "path": "/about",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "about_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0.001,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0.001,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "contact_1366x768": {
+      "routeId": "contact",
+      "path": "/contact",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "contact_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0.007,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0.007,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "help_1366x768": {
+      "routeId": "help",
+      "path": "/help",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "help_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 7,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 7
+    },
+    "privacy_1366x768": {
+      "routeId": "privacy",
+      "path": "/privacy",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "privacy_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "terms_1366x768": {
+      "routeId": "terms",
+      "path": "/terms",
+      "viewport": "1366x768",
+      "width": 1366,
+      "height": 768,
+      "screenshot": "terms_1366x768.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1366,
+        "innerWidth": 1366,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "landing_1440x900": {
+      "routeId": "landing",
+      "path": "/",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "landing_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [
+        {
+          "selector": "p",
+          "text": "Industry-leading noise canceling wi",
+          "scrollWidth": 280,
+          "clientWidth": 280,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        },
+        {
+          "selector": "p",
+          "text": "Spatial audio with Bose Immersive A",
+          "scrollWidth": 280,
+          "clientWidth": 280,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        },
+        {
+          "selector": "p",
+          "text": "Liquid Retina XDR display with ProM",
+          "scrollWidth": 280,
+          "clientWidth": 280,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        }
+      ],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "nav",
+          "topDelta": 4,
+          "heightDelta": 7,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 18,
+          "childCount": 6
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 18,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0.003,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0.003,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 3,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 7,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 10
+    },
+    "explore_1440x900": {
+      "routeId": "explore",
+      "path": "/explore",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "explore_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 4,
+          "heightDelta": 26,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 6
+    },
+    "productDetail_1440x900": {
+      "routeId": "productDetail",
+      "path": "/product?product=sony-wh1000xm5",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "productDetail_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 36,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 18,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 6
+    },
+    "login_1440x900": {
+      "routeId": "login",
+      "path": "/login",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "login_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "header",
+          "topDelta": 5,
+          "heightDelta": 9,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 6,
+          "heightDelta": 11,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 15,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 6
+    },
+    "register_1440x900": {
+      "routeId": "register",
+      "path": "/register",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "register_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 7,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 1,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "forgotPassword_1440x900": {
+      "routeId": "forgotPassword",
+      "path": "/forgot-password",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "forgotPassword_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 14,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 1,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "about_1440x900": {
+      "routeId": "about",
+      "path": "/about",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "about_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "contact_1440x900": {
+      "routeId": "contact",
+      "path": "/contact",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "contact_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0.005,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0.005,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "help_1440x900": {
+      "routeId": "help",
+      "path": "/help",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "help_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 7,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 7
+    },
+    "privacy_1440x900": {
+      "routeId": "privacy",
+      "path": "/privacy",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "privacy_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "terms_1440x900": {
+      "routeId": "terms",
+      "path": "/terms",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "screenshot": "terms_1440x900.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "landing_1920x1080": {
+      "routeId": "landing",
+      "path": "/",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "landing_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [
+        {
+          "selector": "p",
+          "text": "Industry-leading noise canceling wi",
+          "scrollWidth": 280,
+          "clientWidth": 280,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        },
+        {
+          "selector": "p",
+          "text": "Spatial audio with Bose Immersive A",
+          "scrollWidth": 280,
+          "clientWidth": 280,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        },
+        {
+          "selector": "p",
+          "text": "Liquid Retina XDR display with ProM",
+          "scrollWidth": 280,
+          "clientWidth": 280,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        }
+      ],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "nav",
+          "topDelta": 4,
+          "heightDelta": 7,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 18,
+          "childCount": 6
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 18,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0.002,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0.002,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 3,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 7,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 10
+    },
+    "explore_1920x1080": {
+      "routeId": "explore",
+      "path": "/explore",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "explore_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 4,
+          "heightDelta": 26,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 6
+    },
+    "productDetail_1920x1080": {
+      "routeId": "productDetail",
+      "path": "/product?product=sony-wh1000xm5",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "productDetail_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 36,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 18,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 6
+    },
+    "login_1920x1080": {
+      "routeId": "login",
+      "path": "/login",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "login_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "header",
+          "topDelta": 5,
+          "heightDelta": 9,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 6,
+          "heightDelta": 11,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 8,
+          "heightDelta": 15,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 4,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 4
+    },
+    "register_1920x1080": {
+      "routeId": "register",
+      "path": "/register",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "register_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 7,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 1,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "forgotPassword_1920x1080": {
+      "routeId": "forgotPassword",
+      "path": "/forgot-password",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "forgotPassword_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 14,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 1,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "about_1920x1080": {
+      "routeId": "about",
+      "path": "/about",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "about_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "contact_1920x1080": {
+      "routeId": "contact",
+      "path": "/contact",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "contact_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0.002,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0.002,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "help_1920x1080": {
+      "routeId": "help",
+      "path": "/help",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "help_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 7,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 7
+    },
+    "privacy_1920x1080": {
+      "routeId": "privacy",
+      "path": "/privacy",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "privacy_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "terms_1920x1080": {
+      "routeId": "terms",
+      "path": "/terms",
+      "viewport": "1920x1080",
+      "width": 1920,
+      "height": 1080,
+      "screenshot": "terms_1920x1080.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 1920,
+        "innerWidth": 1920,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 0,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 0
+    },
+    "landing_768x1024": {
+      "routeId": "landing",
+      "path": "/",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "landing_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [
+        {
+          "selector": "p",
+          "text": "Industry-leading noise canceling wi",
+          "scrollWidth": 306,
+          "clientWidth": 306,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        },
+        {
+          "selector": "p",
+          "text": "Spatial audio with Bose Immersive A",
+          "scrollWidth": 306,
+          "clientWidth": 306,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        },
+        {
+          "selector": "p",
+          "text": "Liquid Retina XDR display with ProM",
+          "scrollWidth": 306,
+          "clientWidth": 306,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        }
+      ],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Explore Gadgets",
+          "width": 78.1,
+          "height": 32
+        },
+        {
+          "selector": "button",
+          "label": "About NLP Engine",
+          "width": 85.7,
+          "height": 32
+        },
+        {
+          "selector": "button",
+          "label": "Contact",
+          "width": 50.9,
+          "height": 16
+        },
+        {
+          "selector": "button.btn-outline",
+          "label": "View All (7)",
+          "width": 131.4,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "About",
+          "width": 37.6,
+          "height": 16
+        },
+        {
+          "selector": "button",
+          "label": "Contact",
+          "width": 49.5,
+          "height": 16
+        },
+        {
+          "selector": "button",
+          "label": "Privacy Policy",
+          "width": 88.1,
+          "height": 16
+        },
+        {
+          "selector": "button",
+          "label": "Terms of Service",
+          "width": 107.4,
+          "height": 16
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "nav",
+          "topDelta": 4,
+          "heightDelta": 8,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 22,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 17,
+          "heightDelta": 34,
+          "childCount": 6
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 18,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 10,
+          "heightDelta": 21,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 10,
+          "heightDelta": 21,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 3,
+        "touchTargetsUnder44": 8,
+        "rowMisalignments": 7,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 18
+    },
+    "explore_768x1024": {
+      "routeId": "explore",
+      "path": "/explore",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "explore_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button.lg:hidden",
+          "label": "Close sidebar",
+          "width": 32,
+          "height": 35
+        },
+        {
+          "selector": "button",
+          "label": "Overview",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Explore Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Review Analyzer",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Sentiment Insights",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Aspect Breakdown",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Compare Products",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Saved Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Recent Activity",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Settings",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Help & Support",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.btn-secondary",
+          "label": "Register",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.lg:hidden",
+          "label": "Open navigation menu",
+          "width": 36,
+          "height": 39
+        },
+        {
+          "selector": "input",
+          "label": "",
+          "width": 379.9,
+          "height": 38
+        },
+        {
+          "selector": "button",
+          "label": "Notifications",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In",
+          "width": 74.4,
+          "height": 28
+        },
+        {
+          "selector": "button",
+          "label": "All Categories",
+          "width": 145.3,
+          "height": 34
+        },
+        {
+          "selector": "button",
+          "label": "Smartphones",
+          "width": 140.2,
+          "height": 34
+        },
+        {
+          "selector": "button",
+          "label": "Laptops",
+          "width": 107,
+          "height": 34
+        },
+        {
+          "selector": "button",
+          "label": "Headphones",
+          "width": 136,
+          "height": 34
+        },
+        {
+          "selector": "button",
+          "label": "Smartwatches",
+          "width": 146.6,
+          "height": 34
+        },
+        {
+          "selector": "button",
+          "label": "Tablets",
+          "width": 102.2,
+          "height": 34
+        },
+        {
+          "selector": "input.input-field",
+          "label": "",
+          "width": 521,
+          "height": 42
+        },
+        {
+          "selector": "select",
+          "label": "Sort: Recommended\nSort: H",
+          "width": 179,
+          "height": 42
+        },
+        {
+          "selector": "button",
+          "label": "Save Product",
+          "width": 34,
+          "height": 34
+        },
+        {
+          "selector": "button.btn-outline",
+          "label": "Compare",
+          "width": 153,
+          "height": 33
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "AI Analysis",
+          "width": 153,
+          "height": 33
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 4,
+          "heightDelta": 26,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 28,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 34
+    },
+    "productDetail_768x1024": {
+      "routeId": "productDetail",
+      "path": "/product?product=sony-wh1000xm5",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "productDetail_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button.lg:hidden",
+          "label": "Close sidebar",
+          "width": 32,
+          "height": 35
+        },
+        {
+          "selector": "button",
+          "label": "Overview",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Explore Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Review Analyzer",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Sentiment Insights",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Aspect Breakdown",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Compare Products",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Saved Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Recent Activity",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Settings",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Help & Support",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.btn-secondary",
+          "label": "Register",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.lg:hidden",
+          "label": "Open navigation menu",
+          "width": 36,
+          "height": 39
+        },
+        {
+          "selector": "input",
+          "label": "",
+          "width": 379.9,
+          "height": 38
+        },
+        {
+          "selector": "button",
+          "label": "Notifications",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In",
+          "width": 74.4,
+          "height": 28
+        },
+        {
+          "selector": "button",
+          "label": "Back to Gadget Catalog",
+          "width": 174.1,
+          "height": 16
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "View AI Summary & Verdict",
+          "width": 250.4,
+          "height": 41
+        },
+        {
+          "selector": "button.btn-outline",
+          "label": "Compare",
+          "width": 123.3,
+          "height": 43
+        },
+        {
+          "selector": "button.btn-outline",
+          "label": "Save",
+          "width": 94.8,
+          "height": 43
+        },
+        {
+          "selector": "button",
+          "label": "All",
+          "width": 39,
+          "height": 25
+        },
+        {
+          "selector": "button",
+          "label": "Positive",
+          "width": 69.2,
+          "height": 25
+        },
+        {
+          "selector": "button",
+          "label": "Neutral",
+          "width": 65.9,
+          "height": 25
+        },
+        {
+          "selector": "button",
+          "label": "Negative",
+          "width": 75.2,
+          "height": 25
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Write a Review",
+          "width": 146.8,
+          "height": 32
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 36,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 4,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 26,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 32
+    },
+    "login_768x1024": {
+      "routeId": "login",
+      "path": "/login",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "login_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Back to Reviewly AI publi",
+          "width": 234.4,
+          "height": 16
+        },
+        {
+          "selector": "button",
+          "label": "Forgot password?",
+          "width": 107,
+          "height": 15
+        },
+        {
+          "selector": "button",
+          "label": "Toggle password visibilit",
+          "width": 17,
+          "height": 20
+        },
+        {
+          "selector": "input",
+          "label": "on",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In to Reviewly AI",
+          "width": 414,
+          "height": 41
+        },
+        {
+          "selector": "button",
+          "label": "Sign in with Google",
+          "width": 414,
+          "height": 40
+        },
+        {
+          "selector": "button",
+          "label": "Create an account",
+          "width": 117.8,
+          "height": 16
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "header",
+          "topDelta": 5,
+          "heightDelta": 9,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 6,
+          "heightDelta": 11,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 8,
+          "heightDelta": 15,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 7,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 13
+    },
+    "register_768x1024": {
+      "routeId": "register",
+      "path": "/register",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "register_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Back to Reviewly AI",
+          "width": 150.1,
+          "height": 16
+        },
+        {
+          "selector": "button",
+          "label": "Sign In",
+          "width": 43.9,
+          "height": 16
+        },
+        {
+          "selector": "button",
+          "label": "",
+          "width": 17,
+          "height": 20
+        },
+        {
+          "selector": "input",
+          "label": "on",
+          "width": 13,
+          "height": 16
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Create Free Account",
+          "width": 414,
+          "height": 41
+        },
+        {
+          "selector": "button",
+          "label": "Register with Google",
+          "width": 414,
+          "height": 40
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 7,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 6,
+        "rowMisalignments": 1,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 7
+    },
+    "forgotPassword_768x1024": {
+      "routeId": "forgotPassword",
+      "path": "/forgot-password",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "forgotPassword_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Back to Sign In",
+          "width": 119.7,
+          "height": 16
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Send Reset Link",
+          "width": 374,
+          "height": 41
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 14,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 2,
+        "rowMisalignments": 1,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 3
+    },
+    "about_768x1024": {
+      "routeId": "about",
+      "path": "/about",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "about_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button.btn-primary",
+          "label": "Explore Synthesized Gadge",
+          "width": 260.3,
+          "height": 37
+        }
+      ],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 1,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "contact_768x1024": {
+      "routeId": "contact",
+      "path": "/contact",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "contact_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button.btn-primary",
+          "label": "Submit Message",
+          "width": 182.5,
+          "height": 41
+        }
+      ],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 1,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "help_768x1024": {
+      "routeId": "help",
+      "path": "/help",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "help_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button.lg:hidden",
+          "label": "Close sidebar",
+          "width": 32,
+          "height": 35
+        },
+        {
+          "selector": "button",
+          "label": "Overview",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Explore Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Review Analyzer",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Sentiment Insights",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Aspect Breakdown",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Compare Products",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Saved Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Recent Activity",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Settings",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Help & Support",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.btn-secondary",
+          "label": "Register",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.lg:hidden",
+          "label": "Open navigation menu",
+          "width": 36,
+          "height": 39
+        },
+        {
+          "selector": "input",
+          "label": "",
+          "width": 379.9,
+          "height": 38
+        },
+        {
+          "selector": "button",
+          "label": "Notifications",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In",
+          "width": 74.4,
+          "height": 28
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Contact Support",
+          "width": 150.2,
+          "height": 37
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 5,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 18,
+        "rowMisalignments": 7,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 25
+    },
+    "privacy_768x1024": {
+      "routeId": "privacy",
+      "path": "/privacy",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "privacy_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Back to Home",
+          "width": 111.8,
+          "height": 16
+        }
+      ],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 1,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "terms_768x1024": {
+      "routeId": "terms",
+      "path": "/terms",
+      "viewport": "768x1024",
+      "width": 768,
+      "height": 1024,
+      "screenshot": "terms_768x1024.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Back to Home",
+          "width": 111.8,
+          "height": 16
+        }
+      ],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 1,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "landing_390x844": {
+      "routeId": "landing",
+      "path": "/",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "landing_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 571,
+        "innerWidth": 571,
+        "offendingElements": []
+      },
+      "clippedText": [
+        {
+          "selector": "p",
+          "text": "Industry-leading noise canceling wi",
+          "scrollWidth": 300,
+          "clientWidth": 300,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        },
+        {
+          "selector": "p",
+          "text": "Spatial audio with Bose Immersive A",
+          "scrollWidth": 300,
+          "clientWidth": 300,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        },
+        {
+          "selector": "p",
+          "text": "Liquid Retina XDR display with ProM",
+          "scrollWidth": 300,
+          "clientWidth": 300,
+          "scrollHeight": 75,
+          "clientHeight": 38,
+          "textOverflow": "clip"
+        }
+      ],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Explore Gadgets",
+          "width": 54.1,
+          "height": 32
+        },
+        {
+          "selector": "button",
+          "label": "Contact",
+          "width": 50.9,
+          "height": 16
+        },
+        {
+          "selector": "button",
+          "label": "About",
+          "width": 37.6,
+          "height": 32
+        },
+        {
+          "selector": "button",
+          "label": "Contact",
+          "width": 49.5,
+          "height": 32
+        },
+        {
+          "selector": "button",
+          "label": "Privacy Policy",
+          "width": 82.5,
+          "height": 32
+        },
+        {
+          "selector": "button",
+          "label": "Terms of Service",
+          "width": 100.4,
+          "height": 32
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "nav",
+          "topDelta": 12,
+          "heightDelta": 24,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 17,
+          "heightDelta": 34,
+          "childCount": 6
+        },
+        {
+          "container": "div",
+          "topDelta": 10,
+          "heightDelta": 21,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 10,
+          "heightDelta": 21,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 11,
+          "heightDelta": 21,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 3,
+        "touchTargetsUnder44": 6,
+        "rowMisalignments": 5,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 14
+    },
+    "explore_390x844": {
+      "routeId": "explore",
+      "path": "/explore",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "explore_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button.lg:hidden",
+          "label": "Close sidebar",
+          "width": 32,
+          "height": 35
+        },
+        {
+          "selector": "button",
+          "label": "Overview",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Explore Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Review Analyzer",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Sentiment Insights",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Aspect Breakdown",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Compare Products",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Saved Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Recent Activity",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Settings",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Help & Support",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.btn-secondary",
+          "label": "Register",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.lg:hidden",
+          "label": "Open navigation menu",
+          "width": 36,
+          "height": 39
+        },
+        {
+          "selector": "input",
+          "label": "",
+          "width": 94,
+          "height": 38
+        },
+        {
+          "selector": "button",
+          "label": "Notifications",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "All Categories",
+          "width": 145.3,
+          "height": 34
+        },
+        {
+          "selector": "button",
+          "label": "Smartphones",
+          "width": 140.2,
+          "height": 34
+        },
+        {
+          "selector": "button",
+          "label": "Laptops",
+          "width": 107,
+          "height": 34
+        },
+        {
+          "selector": "button",
+          "label": "Headphones",
+          "width": 136,
+          "height": 34
+        },
+        {
+          "selector": "button",
+          "label": "Smartwatches",
+          "width": 146.6,
+          "height": 34
+        },
+        {
+          "selector": "button",
+          "label": "Tablets",
+          "width": 102.2,
+          "height": 34
+        },
+        {
+          "selector": "input.input-field",
+          "label": "",
+          "width": 358,
+          "height": 42
+        },
+        {
+          "selector": "select",
+          "label": "Sort: Recommended\nSort: H",
+          "width": 179,
+          "height": 42
+        },
+        {
+          "selector": "button",
+          "label": "Save Product",
+          "width": 34,
+          "height": 34
+        },
+        {
+          "selector": "button.btn-outline",
+          "label": "Compare",
+          "width": 154,
+          "height": 33
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "AI Analysis",
+          "width": 154,
+          "height": 33
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 4,
+          "heightDelta": 26,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 27,
+        "rowMisalignments": 5,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 32
+    },
+    "productDetail_390x844": {
+      "routeId": "productDetail",
+      "path": "/product?product=sony-wh1000xm5",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "productDetail_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 432,
+        "innerWidth": 432,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button.lg:hidden",
+          "label": "Close sidebar",
+          "width": 32,
+          "height": 35
+        },
+        {
+          "selector": "button",
+          "label": "Overview",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Explore Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Review Analyzer",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Sentiment Insights",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Aspect Breakdown",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Compare Products",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Saved Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Recent Activity",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Settings",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Help & Support",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.btn-secondary",
+          "label": "Register",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.lg:hidden",
+          "label": "Open navigation menu",
+          "width": 36,
+          "height": 39
+        },
+        {
+          "selector": "input",
+          "label": "",
+          "width": 94,
+          "height": 38
+        },
+        {
+          "selector": "button",
+          "label": "Notifications",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Back to Gadget Catalog",
+          "width": 174.1,
+          "height": 16
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "View AI Summary & Verdict",
+          "width": 250.4,
+          "height": 41
+        },
+        {
+          "selector": "button.btn-outline",
+          "label": "Compare",
+          "width": 123.3,
+          "height": 43
+        },
+        {
+          "selector": "button.btn-outline",
+          "label": "Save",
+          "width": 94.8,
+          "height": 43
+        },
+        {
+          "selector": "button",
+          "label": "All",
+          "width": 39,
+          "height": 25
+        },
+        {
+          "selector": "button",
+          "label": "Positive",
+          "width": 69.2,
+          "height": 25
+        },
+        {
+          "selector": "button",
+          "label": "Neutral",
+          "width": 65.9,
+          "height": 25
+        },
+        {
+          "selector": "button",
+          "label": "Negative",
+          "width": 75.2,
+          "height": 25
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 14,
+          "heightDelta": 28,
+          "childCount": 3
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 17,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 25,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 25,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 12,
+          "heightDelta": 25,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 24,
+        "rowMisalignments": 8,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 32
+    },
+    "login_390x844": {
+      "routeId": "login",
+      "path": "/login",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "login_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Back to Reviewly AI publi",
+          "width": 202.7,
+          "height": 32
+        },
+        {
+          "selector": "button",
+          "label": "Forgot password?",
+          "width": 107,
+          "height": 15
+        },
+        {
+          "selector": "button",
+          "label": "Toggle password visibilit",
+          "width": 17,
+          "height": 20
+        },
+        {
+          "selector": "input",
+          "label": "on",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In to Reviewly AI",
+          "width": 276,
+          "height": 41
+        },
+        {
+          "selector": "button",
+          "label": "Sign in with Google",
+          "width": 276,
+          "height": 40
+        },
+        {
+          "selector": "button",
+          "label": "Create an account",
+          "width": 117.8,
+          "height": 16
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "header",
+          "topDelta": 5,
+          "heightDelta": 11,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 14,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 9,
+          "heightDelta": 19,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 8,
+          "heightDelta": 17,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 14,
+          "heightDelta": 28,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 10,
+          "heightDelta": 20,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 7,
+        "rowMisalignments": 6,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 13
+    },
+    "register_390x844": {
+      "routeId": "register",
+      "path": "/register",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "register_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Back to Reviewly AI",
+          "width": 150.1,
+          "height": 16
+        },
+        {
+          "selector": "button",
+          "label": "Sign In",
+          "width": 43.9,
+          "height": 16
+        },
+        {
+          "selector": "button",
+          "label": "",
+          "width": 17,
+          "height": 20
+        },
+        {
+          "selector": "input",
+          "label": "on",
+          "width": 13,
+          "height": 16
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Create Free Account",
+          "width": 276,
+          "height": 41
+        },
+        {
+          "selector": "button",
+          "label": "Register with Google",
+          "width": 276,
+          "height": 40
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 3,
+          "heightDelta": 7,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 6,
+        "rowMisalignments": 1,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 7
+    },
+    "forgotPassword_390x844": {
+      "routeId": "forgotPassword",
+      "path": "/forgot-password",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "forgotPassword_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Back to Sign In",
+          "width": 119.7,
+          "height": 16
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Send Reset Link",
+          "width": 276,
+          "height": 41
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 7,
+          "heightDelta": 14,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 2,
+        "rowMisalignments": 1,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 3
+    },
+    "about_390x844": {
+      "routeId": "about",
+      "path": "/about",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "about_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button.btn-primary",
+          "label": "Explore Synthesized Gadge",
+          "width": 260.3,
+          "height": 37
+        }
+      ],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 1,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "contact_390x844": {
+      "routeId": "contact",
+      "path": "/contact",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "contact_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button.btn-primary",
+          "label": "Submit Message",
+          "width": 182.5,
+          "height": 41
+        }
+      ],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 1,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "help_390x844": {
+      "routeId": "help",
+      "path": "/help",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "help_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button.lg:hidden",
+          "label": "Close sidebar",
+          "width": 32,
+          "height": 35
+        },
+        {
+          "selector": "button",
+          "label": "Overview",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Explore Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Review Analyzer",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Sentiment Insights",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Aspect Breakdown",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Compare Products",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Saved Gadgets",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Recent Activity",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Settings",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button",
+          "label": "Help & Support",
+          "width": 227,
+          "height": 36
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Sign In",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.btn-secondary",
+          "label": "Register",
+          "width": 109.5,
+          "height": 32
+        },
+        {
+          "selector": "button.lg:hidden",
+          "label": "Open navigation menu",
+          "width": 36,
+          "height": 39
+        },
+        {
+          "selector": "input",
+          "label": "",
+          "width": 94,
+          "height": 38
+        },
+        {
+          "selector": "button",
+          "label": "Notifications",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "selector": "button.btn-primary",
+          "label": "Contact Support",
+          "width": 150.2,
+          "height": 37
+        }
+      ],
+      "rowMisalignments": [
+        {
+          "container": "div",
+          "topDelta": 15,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 13,
+          "heightDelta": 26,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 5,
+          "heightDelta": 10,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 14,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 14,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 14,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 14,
+          "heightDelta": 29,
+          "childCount": 2
+        },
+        {
+          "container": "div",
+          "topDelta": 14,
+          "heightDelta": 29,
+          "childCount": 2
+        }
+      ],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 17,
+        "rowMisalignments": 8,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 25
+    },
+    "privacy_390x844": {
+      "routeId": "privacy",
+      "path": "/privacy",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "privacy_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Back to Home",
+          "width": 111.8,
+          "height": 16
+        }
+      ],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 1,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    },
+    "terms_390x844": {
+      "routeId": "terms",
+      "path": "/terms",
+      "viewport": "390x844",
+      "width": 390,
+      "height": 844,
+      "screenshot": "terms_390x844.png",
+      "horizontalOverflow": {
+        "hasOverflow": false,
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "offendingElements": []
+      },
+      "clippedText": [],
+      "touchTargetsUnder44": [
+        {
+          "selector": "button",
+          "label": "Back to Home",
+          "width": 111.8,
+          "height": 16
+        }
+      ],
+      "rowMisalignments": [],
+      "imagesWithoutReservedSize": [],
+      "clsOnLoad": 0,
+      "clsAfterInteraction": 0,
+      "clsTotal": 0,
+      "findingSummary": {
+        "horizontalOverflow": 0,
+        "clippedText": 0,
+        "touchTargetsUnder44": 1,
+        "rowMisalignments": 0,
+        "imagesWithoutReservedSize": 0,
+        "clsIssues": 0
+      },
+      "totalFindings": 1
+    }
+  }
+}
